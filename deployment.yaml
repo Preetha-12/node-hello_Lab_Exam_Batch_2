@@ -15,7 +15,7 @@ spec:
         app: nodejs
     spec:
       containers:
-      - name: cafestatic
-        image: neehar2601/nodejsweb:latest
+      - name: nodehello
+        image: preethaer312/nodehelloimage:latest
         ports:
         - containerPort: 80
