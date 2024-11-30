@@ -7,8 +7,8 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - port: 80
-      targetPort: 30774
+    - port: 30774
+      targetPort: 80
       protocol: TCP
   selector:
     app: nodejs
